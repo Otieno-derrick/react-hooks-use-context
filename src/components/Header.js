@@ -2,6 +2,7 @@ import React from "react";
 import ThemedButton from "./ThemedButton";
 import DarkModeToggle from "./DarkModeToggle";
 import defaultUser from "../data";
+import { UserContext } from "../context/user";
 
 function Header({ theme, setTheme, user, setUser }) {
   function handleLogin() {
